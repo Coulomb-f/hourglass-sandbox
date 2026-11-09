@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import "@fontsource/cormorant-garamond/latin-500.css";
+@import "@fontsource/cormorant-garamond/latin-600.css";
+@import "@fontsource/outfit/latin-300.css";
+@import "@fontsource/outfit/latin-400.css";
+@import "@fontsource/outfit/latin-500.css";
+
+@theme {
+  --color-bg: #0c0b09;
+  --color-glow: #2a241c;
+  --color-fg: #f3eee6;
+  --color-muted: #9a9082;
+  --color-brass: #c6a15a;
+  --color-brass-deep: #8a7040;
+  --color-line: #2c2822;
+  --font-serif: "Cormorant Garamond", Palatino, "Palatino Linotype", Georgia, serif;
+  --font-sans: Outfit, "Avenir Next", "Segoe UI", sans-serif;
+  --tracking-brand: 0.28em;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: var(--color-brass);
+    color: var(--color-bg);
+  }
+}
+
+.vignette {
+  background: radial-gradient(ellipse at center, transparent 52%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

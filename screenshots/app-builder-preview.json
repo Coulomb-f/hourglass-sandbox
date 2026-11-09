@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Aureum",
+      "hasCanvas": false,
+      "bodyTextLen": 47,
+      "bodyTextHash": "c1b4b5eca4bd3b04597555212a447a822ad77303568d1c38aa67aa3b232045a2",
+      "bodyTextPrefix": "Aureum SET THE HOUR 25:00 15 25 45 90 MIN BEGIN",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Aureum",
+      "hasCanvas": false,
+      "bodyTextLen": 47,
+      "bodyTextHash": "c1b4b5eca4bd3b04597555212a447a822ad77303568d1c38aa67aa3b232045a2",
+      "bodyTextPrefix": "Aureum SET THE HOUR 25:00 15 25 45 90 MIN BEGIN",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
